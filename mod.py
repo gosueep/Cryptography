@@ -33,10 +33,15 @@ def squareMult(base, power, n):
 
 
 def main():
-    base = int(input('Base (a): '))
-    exp = int(input('Exponent: '))
-    mod = int(input('Mod: '))
-    print(squareMult(base, exp, mod))
+    # base = int(input('Base (a): '))
+    # exp = int(input('Exponent: '))
+    # mod = int(input('Mod: '))
+    # print(squareMult(base, exp, mod))
+
+    num = int(input("Num: "))
+    mod = int(input("Mod: "))
+
+    print(euc)
 
 
 if __name__ == "__main__":

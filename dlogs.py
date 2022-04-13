@@ -23,7 +23,7 @@ def dlog(b, a, p):
 
 def main():
     print("Discrete Log")
-    b = int(input('b: '))
+    b = int(input('Num/Base: '))
     a = int(input('a: '))
     p = int(input('p: '))
     print(f'dlog: {dlog(b, a, p)}')

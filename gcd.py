@@ -23,8 +23,7 @@ def inverse(a, z):
 
 
 def main():
-    print(gcd(24140, 40902))
-    # gcd(1234, 4321)
+    print(inverse(59, 71))
 
 
 if __name__ == "__main__":
